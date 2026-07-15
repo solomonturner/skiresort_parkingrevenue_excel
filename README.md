@@ -31,6 +31,7 @@ Data was sourced directly from the parking software platform used by the client,
   - Ski Season (2023/24, 2024/25, 2025/26)
   - New vs. Returning Parker
   - Total Parking Duration
+  - Pricing Policy
 <img width="1729" height="803" alt="image" src="https://github.com/user-attachments/assets/27b24e0e-f5af-41e1-9fdd-10ecc0b892d5" />
 
 ## Methodology & Exploratory Data Analysis (EDA)
