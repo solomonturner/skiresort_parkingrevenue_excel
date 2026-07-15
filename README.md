@@ -36,12 +36,11 @@ Data was sourced directly from the parking software platform used by the client,
 
 ## Methodology & Exploratory Data Analysis (EDA)
 
-Excel was the only tool used for this analysis — from combining and cleaning the raw files to building the visualizations below. Two patterns emerged early:
+Excel was the only tool used for this analysis, from combining and cleaning the raw files to building the visualizations below. Two key patterns emerged early:
+- A **significant decline in parking revenue** beginning at the start of the 2024/25 season.
+- The **majority of premium parkers visited the paid lot only once** during an entire ski season, suggesting the program primarily serves day-trip visitors rather than repeat local traffic.
 
-- A **drastic decline in parking revenue** starting partway through the 2024/25 season
-- The **majority of premium parkers visited the paid lot only once** across an entire ski season, suggesting the program serves mostly occasional/day-trip visitors rather than repeat local traffic
-
-The **2024/25 season stands out as the clearest outlier**. The scale of the drop points to an external factor rather than the pricing model itself, but confirming that would require data beyond parking transactions alone — such as overall mountain visitation for the same period.
+The **2024/25 season** stands out as the clearest outlier. The significant decline suggests an external factor may have influenced results rather than either pricing model alone. Confirming the cause would require additional data beyond parking transactions, such as overall mountain visitation figures for the same period.
 
 ## Key Findings & Visualizations
 
@@ -57,31 +56,33 @@ The **2024/25 season stands out as the clearest outlier**. The scale of the drop
 
 **Revenue and Parking Sessions by Month**
 
-Revenue and session volume tell the same story. During the 2023/24 season — the only full season of all-week paid parking — monthly revenue peaked at roughly $5,000–$7,000 with parking sessions tracking closely alongside it. On **January 17**, mid-way through the 2024/25 season, the pricing model changed from daily paid parking to **weekends and holidays only**. From that point forward, both revenue and session volume dropped sharply and never recovered to prior levels, even in the following full season (2025/26), when weekends-and-holidays-only pricing was in effect for the entire year.
+Revenue and session volume tell the same story. During the 2023/24 season, the only full season with all-week paid parking, monthly revenue peaked at roughly $5,000 to $7,000, with parking sessions tracking closely alongside it. Parking revenue and session volume started off cold (pun intended) in the 2024/25 season. On January 17, partway through the season, the pricing model changed from daily paid parking to weekends and holidays only. Both revenue and session volume declined following the change and never recovered to prior levels, even during the following full season (2025/26), when weekends-and-holidays-only pricing was in effect for the entire year.
 
 **New vs. Returning Parkers by Season**
 
 | Season | New Parkers | Returning Parkers | Total |
 |---|---|---|---|
-| 2023/24 (all-week paid parking) | 353 | 178 | 531 |
+| 2023/24 (all-season paid parking) | 353 | 178 | 531 |
 | 2024/25 (mid-season pricing change) | 69 | 64 | 133 |
 | 2025/26 (full season, weekends/holidays only) | 242 | 139 | 381 |
 
 Two things stand out here:
 
-1. **2023/24 significantly outperforms both later seasons** on new and returning parkers alike — well before any pricing change occurred, which points to something else driving overall parking demand that year.
-2. **2025/26 recovered meaningfully from the 2024/25 trough** (381 vs. 133 total parkers) but still fell well short of 2023/24 levels, even though 2025/26 ran the same weekends-and-holidays-only model for the full season that 2023/24 ran daily paid parking.
-
-Taken together, the pricing change alone does not explain the shape of the trend — a full, clean season of weekends-only pricing (2025/26) did not outperform a full season of daily pricing (2023/24), but it also didn't need to "catch up" to 2023/24 to be considered a reasonable model, since 2024/25's collapse looks driven by something outside the parking program itself.
+1. The **2023/24 season significantly outperformed** both later seasons across new and returning parkers. This was the only full season with all-week paid parking, suggesting that weekday paid parking may have contributed to higher parking adoption and revenue capture. However, external factors such as overall mountain visitation, snowfall, or operating conditions may have also influenced the results.
+2. The **2024/25 season appears to be the primary outlier**, while 2025/26 shows signs of recovery toward the volume trends observed in 2023/24. Total sessions increased from 133 in 2024/25 to 381 in 2025/26, indicating that demand returned closer to 2023/24. The remaining gap compared to 2023/24 may be explained by the loss of weekday paid parking revenue outside of holidays, rather than a significant decline in parking demand. This hypothesis would require further analysis and is explored later in this report.
 
 ## Limitations & Next Steps
 
-This analysis was conducted on parking data alone, which required a number of assumptions grounded in domain knowledge of ski resort and parking operations rather than confirmed by outside data. Most importantly: paid parking is not the resort's primary revenue driver — lift passes and on-mountain purchases/rentals are, so it's important to assess whether the drop in parking sessions over the past two seasons reflects lower overall mountain visitation, or a genuine drop-off in appetite for paid parking specifically.
+This analysis was conducted using parking data alone, which required several assumptions based on domain knowledge of ski resort and parking operations rather than confirmed through external data sources. Most importantly, paid parking is not the resort’s primary revenue driver. Lift passes, on-mountain purchases, and rentals contribute significantly more to overall resort revenue.
+
+To better understand the changes observed in parking revenue, additional data would be required to determine whether the decline in parking sessions over the past two seasons reflects broader changes in mountain visitation or whether the shift from all-season paid parking to weekends-and-holidays-only pricing contributed to the decline.
 
 **Next steps:**
 
-- Acquire mountain-wide data (season passes sold, daily lift tickets issued, etc.) to separate visitation effects from parking-specific effects
-- Isolate non-holiday weekday bookings within the 2023/24 season, remove them, and compare like-for-like revenue and session counts between 2023/24 and 2025/26 before making a final call on which pricing model performs better
-- Revisit this analysis once mountain visitation data is available to confirm (or rule out) the 2024/25 season as an external-event-driven outlier
+- Acquire mountain-wide visitation data (season passes sold, daily lift tickets issued, skier visits, etc.) to separate broader visitation trends from parking-specific behavior.
+- Conduct a like-for-like comparison between the 2023/24 and 2025/26 seasons by isolating the impact of non-holiday weekday parking. This would involve removing non-holiday weekday bookings from the 2023/24 season to estimate how revenue and session volume compare under a similar weekends-and-holidays-only model.
+- Look for a potential increase in mountain visits on non-holiday weekdays during the 2025/26 season to see if the resorts primary revenue source increased.
 
-**Domain-knowledge-based recommendation (pending further analysis):** Continue the parking program. There is no monthly platform cost, and the offering has clear value to both the resort (traffic and congestion management) and to visitors. Ski trips are high-ticket by nature, and an incremental ~$25 parking charge is unlikely to be the deciding factor for a visitor who is already budgeting for equipment, lift tickets, travel, and accommodations.
+**Domain-knowledge-based recommendation (pending further analysis):** The key decision is not whether paid parking should exist, but rather which pricing model best captures revenue while supporting mountain operations. Because there is no fixed monthly platform cost associated with operating the program, paid parking provides additional revenue while also helping manage traffic flow and congestion by encouraging visitors to utilize the appropriate parking areas. Given the overall cost of a ski trip, including equipment, lift tickets, travel, and accommodations, an additional ~$25 parking fee is unlikely to be the primary deciding factor for most visitors.
+
+Further analysis of mountain-wide visitation data and weekday parking demand will help determine whether all-season pricing or weekends-and-holidays-only pricing provides the best balance between revenue generation, visitor experience, and operational efficiency.
