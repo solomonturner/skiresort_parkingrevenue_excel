@@ -2,14 +2,13 @@
 
 ## Executive Summary
 
-After the 2025/26 ski season, a North American ski resort client questioned whether it was worthwhile to continue their premium paid parking program. Two questions drove the analysis:
+After the 2025/26 ski season, a North American ski resort sought to evaluate the effectiveness of its premium paid parking program. The analysis focused on two key business questions:
+1. Was parking revenue higher when paid parking was in effect throughout the season (weekdays and weekends) compared with the later policy of charging only on weekends and holidays?
+2. Does the paid parking program continue to provide sufficient business value to justify its operation?
 
-1. Was parking revenue higher when the resort charged for parking on weekdays and weekends (all season), or when they switched to charging only on weekends and holidays?
-2. Is it worthwhile for the resort to continue the paid parking program at all?
+While the pricing policy change may have contributed to the decline, the available parking data alone cannot establish a causal relationship. Other factors were outside the scope of this initial exploratory analysis but would be required to determine the underlying cause of the decline, including snowfall conditions, season pass sales, daily lift ticket sales, and overall mountain visitation.
 
-The data shows that switching from all-season paid parking to weekends-and-holidays-only pricing did **not** increase parking revenue. If anything, it coincided with fewer total bookings and lower overall revenue. The decline is most pronounced in the 2024/25 season, which appears to be an outlier driven by confounding variables outside the scope of this dataset (details withheld to maintain client anonymity).
-
-**Bottom line:** the pricing policy change may not be the primary lever behind the revenue decline, and the program should continue, both because it carries no platform cost and because it still generates meaningful revenue relative to the cost of running it.
+Despite the reduction in revenue, the paid parking program continues to generate meaningful income with minimal operating costs, suggesting that discontinuing the program would likely forgo revenue without providing a significant financial benefit. Based on the available evidence, maintaining the paid parking program is the recommended course of action.
 
 ## Project Context & Objectives
 
