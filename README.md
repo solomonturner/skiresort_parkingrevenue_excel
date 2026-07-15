@@ -12,14 +12,14 @@ Despite the reduction in revenue, the paid parking program continues to generate
 
 ## Project Context & Objectives
 
-As a Business Development professional in the parking software industry, I manage a portfolio of accounts, including a North American ski resort. The resort implemented a "premium" paid parking program in the lot closest to the ski lifts, both to generate incremental revenue and to help manage traffic flow and lot congestion. Free parking remains available in a separate lot closer to the base of the mountain.
+As a Business Development professional in the parking software industry, I manage a portfolio of client accounts, including a North American ski resort. During the 2023/24 ski season, the resort introduced a premium paid parking program for the lot closest to the ski lifts. The program was designed to generate additional parking revenue while improving traffic flow and reducing congestion by positioning the premium lot as the closest and most convenient parking option. Visitors who chose not to pay were directed to a free parking lot located closer to the base of the mountain.
 
 Paid parking launched in the 2023/24 ski season. By the end of 2025/26, the client was questioning whether the program was worth continuing, largely due to a visible decline in parking revenue since launch. Specifically, they wanted to know:
 
-1. Does charging all season generate more revenue than charging weekends and holidays only?
-2. Is the paid parking program still worth running?
+1. Was parking revenue higher when paid parking was in effect throughout the season (weekdays and weekends) compared with the later policy of charging only on weekends and holidays?
+2. Does the paid parking program continue to provide sufficient business value to justify its operation?
 
-This analysis carries real weight for the business relationship: the outcome influences whether a valuable reference client continues with our company or walks away. It's also worth noting the finite size of the premium lot — a fixed number of 30 paid spaces caps the maximum revenue achievable under any pricing structure, which is an important piece of context for interpreting the results below.
+The results of this analysis will help determine whether the client continues operating the paid parking program and inform future pricing decisions. An important consideration is that the parking software is priced as a percentage of parking revenue rather than a fixed fee, meaning the resort incurs no fixed operating cost to run the paid parking program.
 
 ## Data Sourcing & Preparation
 
