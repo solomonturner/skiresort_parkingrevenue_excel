@@ -1,5 +1,5 @@
 # Ski Resort Parking Revenue Analysis (Excel)
-
+**Tools Used:** Microsoft Excel (Power Query, IF/IFS, PivotTables, PivotCharts)
 ## Executive Summary
 
 After the 2025/26 ski season, a North American ski resort sought to evaluate the effectiveness of its premium paid parking program. The analysis focused on two key business questions:
